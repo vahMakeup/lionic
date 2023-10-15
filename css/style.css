@@ -112,6 +112,7 @@ html{
 .nav-item{
     font-size: 15px;
     line-height: 1;
+    font-weight: 400;
 }
 
 .nav-item:not(:last-child){
@@ -438,19 +439,20 @@ html{
 }
 
 .footer-social-icon-twitter{
-    background-image: url(../img/Twitter.png);
+    background-image: url(../img/Twitter.svg);
     width: 18px;
     height: 15px;
 }
 
 .footer-social-icon-in{
-    background-image: url(../img/Linkedin.png);
+    background-image: url(../img/Linkedin.svg);
     width: 18px;
     height: 19px;
+    transform: translateY(-1px);
 }
 
 .footer-social-icon-mail{
-    background-image: url(../img/Email.png);
+    background-image: url(../img/Email.svg);
     width: 24px;
     height: 17px;
 }
